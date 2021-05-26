@@ -7,6 +7,12 @@
   pointer-events: none;
 }
 
+a { text-decoration: underline; color:gold }
+a:visited { text-decoration: underline; color:gold; }
+a:hover { text-decoration: underline; color:gold; }
+a:focus { text-decoration: underline; color: gold; }
+a:hover, a:active { text-decoration: underline; color:gold }
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +41,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: black;
+}
+
+::-webkit-scrollbar-track { 
+  border-radius: 10px;
+  background-color: black;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: gold; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: yellow; 
 }
