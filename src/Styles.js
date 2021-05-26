@@ -25,11 +25,15 @@ export const Title = styled.h1`
     font-weight: 1;
     font-family: 'Major Mono Display';
     margin: 2vh;
+
+    @media (max-width: 1000px) {
+        margin: 2vw;
+        font-size: 5vh;
+    }
 `;
 
 export const Span = styled.span`
     display: inline-block;    
-    transition: all 1s;
     cursor: default; 
 `;
 
@@ -47,6 +51,10 @@ export const SubTitle = styled.div`
     font-size: 2vw;
     margin: 10vh;
     font-family: 'Montserrat Alternates';
+
+    @media (max-width: 1000px) {
+        font-size: 2vh;
+    }
 `;
 
 export const InfoTitle = styled.h2`
@@ -54,6 +62,10 @@ export const InfoTitle = styled.h2`
     font-size: 2vw;
     font-family: 'Montserrat Alternates';
     font-weight: bold;
+
+    @media (max-width: 1000px) {
+        font-size: 2vh;
+    }
 `;
 
 export const TextBackgroundLeft = styled.div`
@@ -64,6 +76,13 @@ export const TextBackgroundLeft = styled.div`
     width: 65%;
     height: 100%;
     background-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0));
+
+    @media (max-width: 1000px) {
+        width: 100%;
+        height: 65%;
+        top: 0;
+        background-image: linear-gradient(rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0));
+        }
 `;
 
 export const TextBackgroundRight = styled.div`
@@ -74,6 +93,13 @@ export const TextBackgroundRight = styled.div`
     width: 65%;
     height: 100%;
     background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 50%);
+
+    @media (max-width: 1000px) {
+        width: 100%;
+        height: 65%;
+        bottom: 0;
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 50%);
+        }
 `;
 
 export const TextDivLeft = styled.div`
@@ -81,6 +107,12 @@ export const TextDivLeft = styled.div`
     padding: 20px;
     font-size: 1vw;
     font-family: 'Bahnschrift';
+
+    @media (max-width: 1000px) {
+        top: 0;
+        left: 0;
+        font-size: 1vh;
+    }
 `;
 
 export const TextDivRight = styled.div`
@@ -90,6 +122,12 @@ export const TextDivRight = styled.div`
     padding: 20px;
     font-size: 1vw;
     font-family: 'Bahnschrift';
+
+    @media (max-width: 1000px) {
+        bottom: 0;
+        left: 0;
+        font-size: 1vh;
+    }
 `;
 
 export const Div1 = styled.div`
@@ -138,50 +176,5 @@ export const Div4 = styled.div`
     background-size: cover;
     background-position: top center;
     box-shadow: 10px 10px 0px 0px gold;
-`;
-
-export const SideBarDiv = styled.div`
-    background-color: gold;
-    position: fixed;
-    display: grid;
-    left: 0px;
-    top: 20vh;
-    width: 50px;
-    height: 400px;
-    z-index: 10;
-`;
-
-export const WraperDiv = styled.div`
-    border-color: gold;
-    border-style: double;
-    border-width: 4px;
-    padding: 80px;
-    margin: 30px;
-    position: relative;
-
-    &::before {
-        content: '';
-        position: absolute;
-        top: -25px;
-        right: -25px;
-        width: 50px;
-        height 50px;
-        border: 2px solid gold;
-        border-radius: 50%;
-        background: black;
-    }
-
-    
-    &::after {
-        content: '';
-        position: absolute;
-        bottom: -25px;
-        left: -25px;
-        width: 50px;
-        height 50px;
-        border: 2px solid gold;
-        border-radius: 50%;
-        background: black;
-    }
 `;
 
