@@ -31,16 +31,16 @@ function Header()
         </Title>
         <SubTitle data-aos="zoom-in" data-aos-delay="700">Full Stack Developer</SubTitle>
         <ContactInfoDiv>
-        <a href='https://drive.google.com/file/d/1aNik8LrMt9fPwfj3o-QI8RL83e5f2ZmT/view' target='_blank'>
+        <a href='https://drive.google.com/file/d/1aNik8LrMt9fPwfj3o-QI8RL83e5f2ZmT/view' target='_blank' rel="noopener noreferrer">
             <DescriptionIcon data-aos="zoom-in-left" data-aos-delay="900" style={{ fontSize: '5vh' }} />
         </a>
         <a href="mailto:yonatan.r.gold@gmail.com.com">
             <EmailIcon data-aos="zoom-in-left" data-aos-delay="900" style={{ fontSize: '5vh' }} />
         </a>
-        <a href='https://www.linkedin.com/in/yonatan-goldenberg-45a35a1b7/' target='_blank'>
+        <a href='https://www.linkedin.com/in/yonatan-goldenberg-45a35a1b7/' target='_blank' rel="noopener noreferrer">
             <LinkedInIcon data-aos="zoom-in-right" data-aos-delay="900" style={{ fontSize: '5vh' }} />
         </a>
-        <a href='https://github.com/Yoni-Gold' target='_blank'>
+        <a href='https://github.com/Yoni-Gold' target='_blank' rel="noopener noreferrer">
             <GitHubIcon data-aos="zoom-in-right" data-aos-delay="900" style={{ fontSize: '5vh' }} />
         </a>
         </ContactInfoDiv>

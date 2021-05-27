@@ -14,13 +14,13 @@ function Section4()
                     Email: yonatan.r.gold@gmail.com
                     </p>
                     <p>
-                    LinkedIn: <a href='https://www.linkedin.com/in/yonatan-goldenberg-45a35a1b7/' target='_blank'>Yonatan Goldenberg</a>
+                    LinkedIn: <a href='https://www.linkedin.com/in/yonatan-goldenberg-45a35a1b7/' target='_blank' rel="noopener noreferrer">Yonatan Goldenberg</a>
                     </p>
                     <p>
-                    GitHub: <a href='https://github.com/Yoni-Gold' target='_blank'>Yoni-Gold</a>
+                    GitHub: <a href='https://github.com/Yoni-Gold' target='_blank' rel="noopener noreferrer">Yoni-Gold</a>
                     </p>
                     <p>
-                    Resume: <a href='https://drive.google.com/file/d/1aNik8LrMt9fPwfj3o-QI8RL83e5f2ZmT/view' target='_blank'>Yonatan Goldenberg CV.pdf</a>
+                    Resume: <a href='https://drive.google.com/file/d/1aNik8LrMt9fPwfj3o-QI8RL83e5f2ZmT/view' target='_blank' rel="noopener noreferrer">Yonatan Goldenberg CV.pdf</a>
                     </p>
                 </TextDivRight>
             </TextBackgroundRight>
