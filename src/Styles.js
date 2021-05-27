@@ -178,3 +178,19 @@ export const Div4 = styled.div`
     box-shadow: 10px 10px 0px 0px gold;
 `;
 
+export const LinkTag = styled.div`
+    opacity: 0;
+    transition: opacity 0.6s linear;
+    color: black;
+    background-color: gold;
+    height: 2vh;
+    margin: 1px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Bahnschrift';
+    font-size: 2vh;
+
+    a:hover > & {
+        opacity: 1;
+    }
+`;

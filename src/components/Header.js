@@ -1,4 +1,4 @@
-import { HeaderDiv ,  Title , SubTitle , Span , ContactInfoDiv } from '../Styles';
+import { HeaderDiv ,  Title , SubTitle , Span , ContactInfoDiv , LinkTag } from '../Styles';
 import DescriptionIcon from '@material-ui/icons/Description';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -33,15 +33,19 @@ function Header()
         <ContactInfoDiv>
         <a href='https://drive.google.com/file/d/1aNik8LrMt9fPwfj3o-QI8RL83e5f2ZmT/view' target='_blank' rel="noopener noreferrer">
             <DescriptionIcon data-aos="zoom-in-left" data-aos-delay="900" style={{ fontSize: '5vh' }} />
+            <LinkTag>Resume</LinkTag>
         </a>
         <a href="mailto:yonatan.r.gold@gmail.com">
             <EmailIcon data-aos="zoom-in-left" data-aos-delay="900" style={{ fontSize: '5vh' }} />
+            <LinkTag>Mail</LinkTag>
         </a>
         <a href='https://www.linkedin.com/in/yonatan-goldenberg-45a35a1b7/' target='_blank' rel="noopener noreferrer">
             <LinkedInIcon data-aos="zoom-in-right" data-aos-delay="900" style={{ fontSize: '5vh' }} />
+            <LinkTag>LinkedIn</LinkTag>
         </a>
         <a href='https://github.com/Yoni-Gold' target='_blank' rel="noopener noreferrer">
             <GitHubIcon data-aos="zoom-in-right" data-aos-delay="900" style={{ fontSize: '5vh' }} />
+            <LinkTag>GitHub</LinkTag>
         </a>
         </ContactInfoDiv>
         <SubTitle><KeyboardArrowDownIcon onClick={() => {document.getElementById('div1').scrollIntoView({ behavior: 'smooth' , block: "center"})}} data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#title" style={{fontSize: '10vw' , cursor: 'pointer'}}/></SubTitle>
