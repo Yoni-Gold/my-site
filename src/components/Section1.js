@@ -6,9 +6,9 @@ function Section1()
         <TextBackgroundLeft>
             <TextDivLeft>
             <InfoTitle>About Me</InfoTitle>
-            My name is Yonatan Goldenberg, I'm an ex combat soldier on the way to be a full stack developer.
-            I'm creative, dedicated and love what I do.
-            Looking to find the next steps to better myself and improve.
+            My name is Yonatan Goldenberg, I am an ex combat soldier, now set on a goal of becoming a full stack developer. 
+            I am creative, dedicated, eager to learn and love what I do. 
+            Looking for a role that would benefit from my potential whilst helping me grow further.
             </TextDivLeft>
         </TextBackgroundLeft>
         </Div1>
